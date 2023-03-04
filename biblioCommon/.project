@@ -26,7 +26,7 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<name>org.jboss.tools.cdi.core.cdibuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -45,6 +45,11 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.springframework.ide.eclipse.core.springnature</nature>
@@ -55,5 +60,6 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.jboss.tools.jst.web.kb.kbnature</nature>
 		<nature>org.hibernate.eclipse.console.hibernateNature</nature>
+		<nature>org.jboss.tools.cdi.core.cdinature</nature>
 	</natures>
 </projectDescription>
