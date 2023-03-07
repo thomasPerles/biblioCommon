@@ -21,7 +21,14 @@ public class Classification {
 		super();
 	}
 
-	public Classification(String valeur) {
+	public Classification(Integer id) {
+		super();
+		this.id = id;
+	}
+
+	public Classification(Integer id, String valeur) {
+		super();
+		this.id = id;
 		this.valeur = valeur;
 	}
 

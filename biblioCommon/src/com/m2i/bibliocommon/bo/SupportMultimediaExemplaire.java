@@ -26,6 +26,11 @@ public abstract class SupportMultimediaExemplaire {
 		super();
 	}
 
+	public SupportMultimediaExemplaire(Integer id) {
+		super();
+		this.id = id;
+	}
+
 	public SupportMultimediaExemplaire(Integer id, String bibliotheque, Statut statut) {
 		super();
 		this.id = id;

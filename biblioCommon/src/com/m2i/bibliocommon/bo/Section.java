@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-@DiscriminatorValue(value = "Classification")
+@DiscriminatorValue(value = "Section")
 @Entity
 public class Section {
 
@@ -21,7 +21,14 @@ public class Section {
 		super();
 	}
 
-	public Section(String valeur) {
+	public Section(Integer id) {
+		super();
+		this.id = id;
+	}
+
+	public Section(Integer id, String valeur) {
+		super();
+		this.id = id;
 		this.valeur = valeur;
 	}
 

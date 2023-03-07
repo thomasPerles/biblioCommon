@@ -55,6 +55,10 @@ public class LivreDetail extends SupportMultimediaDetail {
 		this.exemplaires = exemplaires;
 	}
 
+	public LivreDetail(Integer id) {
+		super(id);
+	}
+
 	public Livre getLivre() {
 		return livre;
 	}

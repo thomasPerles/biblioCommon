@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
-@DiscriminatorValue(value = "Avis")
+@DiscriminatorValue(value = "LivreAvis")
 @Entity
 public class LivreAvis extends SupportMultimediaAvis {
 
@@ -25,6 +25,10 @@ public class LivreAvis extends SupportMultimediaAvis {
 			Utilisateur utilisateur, Livre livre) {
 		super(id, dateDePublication, titre, contenu, note, utilisateur);
 		this.livre = livre;
+	}
+
+	public LivreAvis(Integer id) {
+		super(id);
 	}
 
 	public Livre getLivre() {

@@ -36,6 +36,11 @@ public abstract class SupportMultimediaAvis {
 		super();
 	}
 
+	public SupportMultimediaAvis(Integer id) {
+		super();
+		this.id = id;
+	}
+
 	public SupportMultimediaAvis(Integer id, LocalDateTime dateDePublication, String titre, String contenu,
 			Integer note, Utilisateur utilisateur) {
 		super();

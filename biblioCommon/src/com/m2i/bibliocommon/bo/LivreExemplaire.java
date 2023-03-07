@@ -33,6 +33,10 @@ public class LivreExemplaire extends SupportMultimediaExemplaire {
 		this.dateDeRetour = dateDeRetour;
 	}
 
+	public LivreExemplaire(Integer id) {
+		super(id);
+	}
+
 	public Livre getLivre() {
 		return livre;
 	}
