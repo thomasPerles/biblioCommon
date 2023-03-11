@@ -5,11 +5,13 @@
 		<class>com.m2i.bibliocommon.bo.Livre</class>
 		<class>com.m2i.bibliocommon.bo.LivreAvis</class>
 		<class>com.m2i.bibliocommon.bo.LivreDetail</class>
+		<class>com.m2i.bibliocommon.bo.LivreEmprunt</class>
 		<class>com.m2i.bibliocommon.bo.LivreExemplaire</class>
 		<class>com.m2i.bibliocommon.bo.Section</class>
 		<class>com.m2i.bibliocommon.bo.SupportMultimedia</class>
 		<class>com.m2i.bibliocommon.bo.SupportMultimediaAvis</class>
 		<class>com.m2i.bibliocommon.bo.SupportMultimediaDetail</class>
+		<class>com.m2i.bibliocommon.bo.SupportMultimediaEmprunt</class>
 		<class>com.m2i.bibliocommon.bo.SupportMultimediaExemplaire</class>
 		<class>com.m2i.bibliocommon.bo.Utilisateur</class>
 		<properties>
